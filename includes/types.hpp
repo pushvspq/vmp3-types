@@ -77,8 +77,6 @@ namespace vmp::types {
 	struct fixup_info_t {
 		uint32_t address; // RVA to page
 		uint32_t size; // Size of block / used to calculate count of entries - ( fixup_info->size - 8 ) >> 1
-
-		fixup_entry_t entries[ 1 ]; // Entries
 	};
 
 	//
