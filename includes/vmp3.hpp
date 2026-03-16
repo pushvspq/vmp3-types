@@ -3,6 +3,9 @@
 #include <cstdint>
 
 namespace vmp3 {
+	inline constexpr std::uint8_t LZMA_PROPS[ ] = "\x5D\x00\x00";
+	inline constexpr std::uint32_t LZMA_PROPS_SIZE = 3;
+
 	//
 	// CMP BYTE PTR SS:[EBP+0x08],0x00
 	//
